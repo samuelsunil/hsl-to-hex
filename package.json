@@ -1,9 +1,10 @@
 {
-  "name": "hsl-to-hex-simple",
+  "name": "@sunilsamuel/hsl-to-hex-simple",
   "version": "1.0.1",
   "description": "Convert HSL colors to RGB colors in hex format.",
   "main": "index.js",
   "scripts": {
+    "prepublish": "npm ls && npm test",
     "test": "tap --cov test"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/samuelsunil/hsl-to-hex#readme",
   "dependencies": {
+    "clockface": "^1.1.1",
     "hsl-to-rgb-for-reals": "^1.1.1"
   },
   "devDependencies": {
