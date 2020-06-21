@@ -5,7 +5,7 @@ Convert HSL colors to RGB colors in hex format.
 ## Install 
 
 ```sh
-npm install --save @sunilsamuel/hsl-to-hex-simple
+npm install --save hsl-to-hex-simple
 ```
  
 ## API
